@@ -19,7 +19,7 @@ await page.evaluate(()=>{
   window.scrollBy(0,300);
   
 });
-//how does it work 
+//how does it work IT 
 await page.locator("xpath=//*[@title='How does it work']").click();
 await page.waitForTimeout(1000);
 //FAQS
